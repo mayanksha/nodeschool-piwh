@@ -1,0 +1,17 @@
+(node:5750) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+/usr/lib/node_modules/promise-it-wont-hurt/exercises/reject_a_promise/wrap.js:9
+    return stack[0].getFileName().substring(0, ctx.mainProgram.length)
+                                 ^
+
+TypeError: Cannot read property 'substring' of null
+    at isInUserCode (/usr/lib/node_modules/promise-it-wont-hurt/exercises/reject_a_promise/wrap.js:9:34)
+    at Promise.then (/usr/lib/node_modules/promise-it-wont-hurt/exercises/reject_a_promise/wrap.js:51:22)
+    at Promise.catch (<anonymous>)
+    at Object.<anonymous> (/home/codermayank/git/node/Promise/reject.ts:9:30)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+✗ Expected execution time: 361±100ms. Submission execution time: 54ms.
